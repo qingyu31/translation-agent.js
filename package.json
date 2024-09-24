@@ -1,0 +1,37 @@
+{
+  "name": "translation-agent",
+  "version": "1.0.0-alpha.1",
+  "description": "A javascript implement of translation-agent from andrewyng",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "npx rollup -c",
+    "dev": "npx rollup -c -w",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "npm publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qingyu31/translation-agent.js.git"
+  },
+  "author": "qingyu31",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qingyu31/translation-agent.js/issues"
+  },
+  "homepage": "https://github.com/qingyu31/translation-agent.js#readme",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "@langchain/core": "^0.3.3",
+    "@langchain/openai": "^0.3.0",
+    "@langchain/textsplitters": "^0.1.0",
+    "js-tiktoken": "^1.0.14",
+    "langchain": "^0.3.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.10.0",
+    "eslint": "^9.10.0"
+  }
+}
