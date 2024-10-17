@@ -1,6 +1,6 @@
 {
   "name": "translation-agent",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0-alpha.2",
   "description": "A javascript implement of translation-agent from andrewyng",
   "main": "index.js",
   "type": "module",
